@@ -54,7 +54,7 @@ public class AvroTest {
             // Encoding the class and serializing to raw format, this step validates based on schema
             obj.toByteBuffer();
             System.out.println("No errors");
-        } catch (PropertyBindingException e) {
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
