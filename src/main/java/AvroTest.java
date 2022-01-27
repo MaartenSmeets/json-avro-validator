@@ -8,7 +8,7 @@ import org.apache.avro.io.DatumReader;
 import org.apache.avro.io.Decoder;
 import org.apache.avro.io.DecoderFactory;
 import org.apache.avro.specific.SpecificDatumReader;
-import org.apache.avro.util.RandomData;
+//import org.apache.avro.util.RandomData;
 
 import java.io.IOException;
 import java.io.InputStream;
